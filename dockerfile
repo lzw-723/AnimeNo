@@ -2,11 +2,14 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY animeno front poetry.lock pyproject.toml ./
+COPY pyproject.toml /app/
+COPY poetry.lock /app/
 
 RUN pip install poetry
-
 RUN poetry install --no-dev --no-root
+
+COPY animeno /app/animeno
+COPY front /app/front
 
 EXPOSE 8000
 
