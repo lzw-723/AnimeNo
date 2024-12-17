@@ -282,25 +282,21 @@ packages:
     resolution: {integrity: sha512-FHS1cU5MzXijVKQ7xW2Rpp0wvtN0BQYbouT3Yx6DNrdtE3P4i/XHnol8zdHkpHeSCOP/p0bnyO+Q/BbXXr4XSw==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@rspack/binding-linux-arm64-musl@1.0.7':
     resolution: {integrity: sha512-WT+h3fpEWY+60UqiTcwTq6jq6NFhZdZW+Onb3QHQ9F9myWOemM5z5GF8rxWKTn6PHOMz01o/cF4ikMQRfC/sEA==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@rspack/binding-linux-x64-gnu@1.0.7':
     resolution: {integrity: sha512-l2ORrXY+dG7n/yog5tGwk3NZLLWh/jz88+74IQkVBX1wRViJt1cJZE9wDqoCLhT6dgCreIUZ1s5UghuAR6ymYQ==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@rspack/binding-linux-x64-musl@1.0.7':
     resolution: {integrity: sha512-k1qtanXpQiGk/h2UfVDxLqzkS/LHj5i4AlMTV6q/CIBUjTOrwO4yFWCCC8JLw4vK6rT/YK/Ib4nwy1XRyVY+dQ==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@rspack/binding-win32-arm64-msvc@1.0.7':
     resolution: {integrity: sha512-WqdaSOo6uGy1c4AkmvcJTtjJT9F7/c5dNTUCTXWAFzh9V1k1X5tpPCxFFB/PpWov59esywkV2ZRIgDypBf3PLg==}
@@ -766,8 +762,8 @@ packages:
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
 
-  nanoid@3.3.7:
-    resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
+  nanoid@3.3.8:
+    resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -1921,7 +1917,7 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
-  nanoid@3.3.7: {}
+  nanoid@3.3.8: {}
 
   node-releases@2.0.18: {}
 
@@ -1994,7 +1990,7 @@ snapshots:
 
   postcss@8.4.47:
     dependencies:
-      nanoid: 3.3.7
+      nanoid: 3.3.8
       picocolors: 1.1.0
       source-map-js: 1.2.1
 
