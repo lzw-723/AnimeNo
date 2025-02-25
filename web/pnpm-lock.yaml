@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@solidjs/meta':
         specifier: ^0.29.4
-        version: 0.29.4(solid-js@1.9.1)
+        version: 0.29.4(solid-js@1.9.4)
       solid-js:
-        specifier: ^1.8.22
-        version: 1.9.1
+        specifier: ^1.9.4
+        version: 1.9.4
     devDependencies:
       '@rsbuild/core':
         specifier: ^1.0.1
@@ -23,7 +23,7 @@ importers:
         version: 1.0.1(@rsbuild/core@1.0.7)
       '@rsbuild/plugin-solid':
         specifier: ^1.0.1
-        version: 1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.7)(solid-js@1.9.1)
+        version: 1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.7)(solid-js@1.9.4)
       '@tailwindcss/typography':
         specifier: ^0.5.15
         version: 0.5.15(tailwindcss@3.4.13)
@@ -282,25 +282,21 @@ packages:
     resolution: {integrity: sha512-FHS1cU5MzXijVKQ7xW2Rpp0wvtN0BQYbouT3Yx6DNrdtE3P4i/XHnol8zdHkpHeSCOP/p0bnyO+Q/BbXXr4XSw==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@rspack/binding-linux-arm64-musl@1.0.7':
     resolution: {integrity: sha512-WT+h3fpEWY+60UqiTcwTq6jq6NFhZdZW+Onb3QHQ9F9myWOemM5z5GF8rxWKTn6PHOMz01o/cF4ikMQRfC/sEA==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@rspack/binding-linux-x64-gnu@1.0.7':
     resolution: {integrity: sha512-l2ORrXY+dG7n/yog5tGwk3NZLLWh/jz88+74IQkVBX1wRViJt1cJZE9wDqoCLhT6dgCreIUZ1s5UghuAR6ymYQ==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@rspack/binding-linux-x64-musl@1.0.7':
     resolution: {integrity: sha512-k1qtanXpQiGk/h2UfVDxLqzkS/LHj5i4AlMTV6q/CIBUjTOrwO4yFWCCC8JLw4vK6rT/YK/Ib4nwy1XRyVY+dQ==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@rspack/binding-win32-arm64-msvc@1.0.7':
     resolution: {integrity: sha512-WqdaSOo6uGy1c4AkmvcJTtjJT9F7/c5dNTUCTXWAFzh9V1k1X5tpPCxFFB/PpWov59esywkV2ZRIgDypBf3PLg==}
@@ -915,14 +911,14 @@ packages:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
 
-  seroval-plugins@1.1.1:
-    resolution: {integrity: sha512-qNSy1+nUj7hsCOon7AO4wdAIo9P0jrzAMp18XhiOzA6/uO5TKtP7ScozVJ8T293oRIvi5wyCHSM4TrJo/c/GJA==}
+  seroval-plugins@1.2.1:
+    resolution: {integrity: sha512-H5vs53+39+x4Udwp4J5rNZfgFuA+Lt+uU+09w1gYBVWomtAl98B+E9w7yC05Xc81/HgLvJdlyqJbU0fJCKCmdw==}
     engines: {node: '>=10'}
     peerDependencies:
       seroval: ^1.0
 
-  seroval@1.1.1:
-    resolution: {integrity: sha512-rqEO6FZk8mv7Hyv4UCj3FD3b6Waqft605TLfsCe/BiaylRpyyMC0b+uA5TJKawX3KzMrdi3wsLbCaLplrQmBvQ==}
+  seroval@1.2.1:
+    resolution: {integrity: sha512-yBxFFs3zmkvKNmR0pFSU//rIsYjuX418TnlDmc2weaq5XFDqDIV/NOMPBoLrbxjLH42p4UzRuXHryXh9dYcKcw==}
     engines: {node: '>=10'}
 
   shebang-command@2.0.0:
@@ -937,8 +933,8 @@ packages:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
 
-  solid-js@1.9.1:
-    resolution: {integrity: sha512-Gd6QWRFfO2XKKZqVK4YwbhWZkr0jWw1dYHOt+VYebomeyikGP0SuMflf42XcDuU9HAEYDArFJIYsBNjlE7iZsw==}
+  solid-js@1.9.4:
+    resolution: {integrity: sha512-ipQl8FJ31bFUoBNScDQTG3BjN6+9Rg+Q+f10bUbnO6EOTTf5NGerJeHc7wyu5I4RMHEl/WwZwUmy/PTRgxxZ8g==}
 
   solid-refresh@0.6.3:
     resolution: {integrity: sha512-F3aPsX6hVw9ttm5LYlth8Q15x6MlI/J3Dn+o3EQyRTtTxidepSTwAYdozt01/YA+7ObcciagGEyXIopGZzQtbA==}
@@ -1421,12 +1417,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@rsbuild/plugin-solid@1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.7)(solid-js@1.9.1)':
+  '@rsbuild/plugin-solid@1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.7)(solid-js@1.9.4)':
     dependencies:
       '@rsbuild/core': 1.0.7
       '@rsbuild/plugin-babel': 1.0.1(@rsbuild/core@1.0.7)
       babel-preset-solid: 1.9.0(@babel/core@7.25.2)
-      solid-refresh: 0.6.3(solid-js@1.9.1)
+      solid-refresh: 0.6.3(solid-js@1.9.4)
     transitivePeerDependencies:
       - '@babel/core'
       - bufferutil
@@ -1487,9 +1483,9 @@ snapshots:
 
   '@sinclair/typebox@0.27.8': {}
 
-  '@solidjs/meta@0.29.4(solid-js@1.9.1)':
+  '@solidjs/meta@0.29.4(solid-js@1.9.4)':
     dependencies:
-      solid-js: 1.9.1
+      solid-js: 1.9.4
 
   '@swc/helpers@0.5.13':
     dependencies:
@@ -2044,11 +2040,11 @@ snapshots:
 
   semver@6.3.1: {}
 
-  seroval-plugins@1.1.1(seroval@1.1.1):
+  seroval-plugins@1.2.1(seroval@1.2.1):
     dependencies:
-      seroval: 1.1.1
+      seroval: 1.2.1
 
-  seroval@1.1.1: {}
+  seroval@1.2.1: {}
 
   shebang-command@2.0.0:
     dependencies:
@@ -2058,18 +2054,18 @@ snapshots:
 
   signal-exit@4.1.0: {}
 
-  solid-js@1.9.1:
+  solid-js@1.9.4:
     dependencies:
       csstype: 3.1.3
-      seroval: 1.1.1
-      seroval-plugins: 1.1.1(seroval@1.1.1)
+      seroval: 1.2.1
+      seroval-plugins: 1.2.1(seroval@1.2.1)
 
-  solid-refresh@0.6.3(solid-js@1.9.1):
+  solid-refresh@0.6.3(solid-js@1.9.4):
     dependencies:
       '@babel/generator': 7.25.6
       '@babel/helper-module-imports': 7.24.7
       '@babel/types': 7.25.6
-      solid-js: 1.9.1
+      solid-js: 1.9.4
     transitivePeerDependencies:
       - supports-color
 
